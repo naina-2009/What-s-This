@@ -45,7 +45,6 @@ function draw()
             noFill();
             stroke("#FFC300");
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
-            var this_data = objects[i].label
             speak();
         }
     }
@@ -54,7 +53,7 @@ function draw()
 function speak()
 {
     var speechSynthesis = window.speechSynthesis;
-    speak_this = this_data;
+    speak_this = object[i].label;
     var utterThis = new SpeechSynthesisUtterance (speak_this);
     speechSynthesis.speak(utterThis);
     speak_this = "";
