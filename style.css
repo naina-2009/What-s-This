@@ -1,0 +1,52 @@
+body
+{
+    background-color: #FFC300;
+    background: fill;
+}
+
+.heading
+{
+    font-size: 70px;
+    font-family: Bad Script;
+    box-shadow: 5px 5px 3px black;
+    font-weight: bold;
+    color: black;
+}
+
+.note
+{
+    font-size: 30px;
+    text-align: center;
+    font-family: Architects Daughter;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px white;
+    color: maroon;
+}
+
+#status
+{
+    font-size: 35px;
+    text-align: center;
+    font-family: Merriweather;
+    border: solid black;
+    color: black;
+    box-shadow: 2px 2px 2px maroon;
+}
+
+canvas
+{
+    margin-top: 160px;
+    box-shadow: 6px 2px 5px maroon;
+    border: solid rgb(54, 1, 1) 6px;
+}
+
+.footer
+{
+    position: sticky;
+    margin-top: 550px;
+    font-size: 45px;
+    text-align: center;
+    font-family: Nothing You Could Do;
+    font-weight: bold;
+    color: rgb(1, 50, 1);
+}
